@@ -1,53 +1,45 @@
-# PRD: SEMC Course Deliverable - The Role of Open Science in Ethical and Sustainable Energy Research
+# PRD: SEMC Course Deliverable - A Balanced Argument for Open Science in Energy Research
 
 ## 1. Introduction/Overview
 
-This document outlines the requirements for creating a two-page reflection paper for the SEMC course. The paper's central goal is to present a credible argument on how open science practices can enhance the treatment of sustainability and ethics in energy research. The analysis will be initiated from the provided article, "The pivotal role of open source knowledge transfer to achieve universal energy access," and will be substantiated by a targeted literature search.
+This document outlines the requirements for a two-page reflection paper for the SEMC course. The paper must present a **balanced and integrated argument**, first critically analyzing the current treatment of sustainability and ethics in energy research, and then demonstrating how open science practices offer a concrete and necessary path forward. The argument will be built by synthesizing resources from two previous analytical attempts.
 
 ## 2. Goals
 
 - **Primary Goal:** To produce a concise and compelling reflection paper of approximately two pages (excluding references).
-- **Core Argument:** To satisfy the course's grading criteria by **critically analyzing how sustainability and ethics dimensions are currently addressed in energy research** and arguing how open science can aid good research practice in this regard.
+- **Core Argument:** To build a balanced argument that **(a)** critically analyzes how sustainability and ethics dimensions are currently addressed in energy research, identifying common failings, and **(b)** convincingly argues how open science can aid good research practice and remedy these specific failings.
 - **Methodological Focus:** The argument must weigh different methodology choices to address sustainability dimensions and ethical codes of conduct in scientific research.
 
 ## 3. User Stories
 
-- As a student, I want to analyze the provided article on open source knowledge transfer to identify the core concepts at the intersection of open science, ethics, and sustainability in the energy sector.
-- As a student, I want to **perform a semantic literature search using queries derived from the core argument to find academic papers on how sustainability and ethics are currently treated in energy research.**
-- As a student, I want to synthesize the findings from the initial article and the subsequent literature review to construct a coherent, central argument.
-- As a student, I want to write a two-page paper that logically structures and presents this argument, supported by evidence from the collected literature.
+- As a student, I want to synthesize the findings from two previous attempts to establish a comprehensive understanding of the problem (ethical failings) and the proposed solution (open science).
+- As a student, I want to perform a targeted semantic literature search to fill any identified gaps, ensuring both sides of the argument are equally well-supported.
+- As a student, I want to construct a single, coherent thesis statement and outline that integrates the critique of current practices with the advocacy for open science.
+- As a student, I want to write a two-page paper that flows logically from the problem to the solution, giving equal weight and depth to both parts of the argument.
 
 ## 4. Functional Requirements
 
-1.  **Analyze Source Material:** The initial article, `The pivotal role of open source knowledge transfer to achieve universal energy access.md`, must be thoroughly analyzed to extract key themes and arguments.
-2.  **Conduct Semantic Search:** A semantic literature search must be performed using the Semantic Scholar and CORE APIs (via their web interfaces) to find relevant academic papers that address the core argument.
-3.  **Critically Analyze Literature:** The search results must be analyzed to identify both exemplary practices and common failings in how energy research addresses sustainability and ethics.
-4.  **Synthesize Information:** The findings from the source article and the literature review must be synthesized to build a cohesive and well-supported argument.
-5.  **Structure the Argument:** The paper should be structured logically around the central argument, rather than conforming to a rigid section-based format.
-6.  **Draft the Paper:** A draft of the reflection paper, approximately two pages in length, must be written.
-7.  **Manage References:** A consistent citation format must be used, and a complete reference list must be included.
+1.  **Synthesize Past Efforts:** The analysis from both `archive/` and `archive_v2/` must be reviewed and synthesized. This includes the critique of "instrumental" engagement (from v2) and the benefits of Open Source Appropriate Technology (from v1).
+2.  **Balanced Literature Review:** A new literature synthesis will be created, drawing the strongest evidence from both previous attempts to support both the "problem" and "solution" parts of the argument.
+3.  **Integrated Argument:** The paper's structure must not be a simple "problem then solution" format, but must weave the two together, showing how specific open science practices directly address specific ethical failings.
+4.  **Draft and Refine:** A single, polished draft of the paper will be created, ensuring the two parts of the argument are balanced in length and depth.
+5.  **Final Deliverable:** The final output will be a tex-based PDF with a complete reference list.
 
 ## 5. Non-Goals (Out of Scope)
 
-- The main body of the paper will not exceed the two-page limit.
-- The scope of the argument will be confined to the energy research sector.
-- The paper will not explore arguments or viewpoints unrelated to the core topic of open science, ethics, and sustainability.
+- The paper will not treat the problem and solution as two separate, disconnected essays.
+- The paper will not exceed the two-page limit (excluding references).
 
-## 6. Design Considerations (Optional)
+## 6. Technical Considerations (Optional)
 
-- Not applicable. The deliverable is a text-based document.
+- The literature synthesis will be based on the successful semantic searches from the previous two attempts.
 
-## 7. Technical Considerations (Optional)
+## 7. Success Metrics
 
-- The literature search will be conducted using semantic queries targeted at academic search engines like Semantic Scholar and CORE.
+- The final paper dedicates roughly equal space and depth to analyzing the problem and presenting the open science solution.
+- The central argument is clear, logical, and seamlessly integrates the two parts.
+- The argument is well-supported by a balanced set of evidence from the previous attempts.
 
-## 8. Success Metrics
-
-- The final paper meets all functional requirements and adheres to the specified length.
-- The central argument is clear, logical, and directly addresses the assignment's prompt, including a critical analysis of current practices.
-- The argument is well-supported by evidence from the provided article and the semantic literature search.
-- The entire process is systematically executed and documented according to the specified project rules.
-
-## 9. Open Questions
+## 8. Open Questions
 
 - None at this stage. 
