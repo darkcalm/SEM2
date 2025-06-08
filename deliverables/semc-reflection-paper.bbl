@@ -1,51 +1,48 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Alonso~Pedrero and Van~de Sande~Araujo(2025)]{alonso2025}
-R.~Alonso~Pedrero and F.~Van~de Sande~Araujo.
-\newblock Open science in energy research.
-\newblock \emph{Open Research Europe}, 2025.
+\bibitem[Arkhurst et~al.(2023)Arkhurst, Houghteling, Dutta, Clarke, Fu,
+  Anderson, and Gill]{arkhurst_2023}
+Bettina~K. Arkhurst, Clara~R. Houghteling, Nikita~S. Dutta, Ardelia Clarke,
+  Katherine Fu, Kate Anderson, and Elizabeth Gill.
+\newblock Evaluating energy justice metrics in early-stage science and
+  technology research using the just-r metrics framework.
+\newblock \emph{Frontiers in Environmental Science}, 11, 2023.
+\newblock \doi{10.3389/fenvs.2023.1206013}.
 
-\bibitem[Eisenson and Webb(2023)]{eisenson2023}
-M.~Eisenson and R.~M. Webb.
-\newblock Expert insights on best practices for community benefits agreements.
-\newblock Technical report, Lawrence Berkeley National Laboratory, 2023.
+\bibitem[Chester(2018)]{chester_2018}
+Lynne Chester.
+\newblock New forms of solar pv provisioning needed to advance energy justice
+  for lower income households.
+\newblock In \emph{2018 Asia-Pacific Solar Research Conference}, Sydney, NSW,
+  Australia, 2018.
 
-\bibitem[Miller(2014)]{miller2014}
-Clark Miller.
-\newblock Ethics of energy transitions.
-\newblock \emph{Online Ethics Center for Engineering and Science}, 2014.
+\bibitem[Eisenson and Webb(2023)]{eisenson_webb_2023}
+B~Eisenson and J~Webb.
+\newblock The limits of transactional community benefit agreements in renewable
+  energy.
+\newblock \emph{Journal of Environmental Policy}, 2023.
 
-\bibitem[Mottaghi and et~al.(2023)]{mottaghi2023}
-T.~Mottaghi and et~al.
-\newblock Ac/off-grid photovoltaic powered open-source ball mill.
-\newblock \emph{PLOS ONE}, 2023.
+\bibitem[Pearce(2019)]{pearce_2019}
+Joshua~M Pearce.
+\newblock Open source appropriate technology: A new paradigm for sustainable
+  development.
+\newblock \emph{Inventions}, 4\penalty0 (1):\penalty0 7, 2019.
 
-\bibitem[Pearce(2019)]{pierce2019}
-Joshua~M. Pearce.
-\newblock The pivotal role of open source knowledge transfer to achieve
-  universal energy access.
-\newblock \emph{Zeitschrift f{\"u}r Wirtschaftsgeographie}, 2019.
+\bibitem[Rana and et~al.(2023)]{rana_2023}
+P~Rana and et~al.
+\newblock Democratizing technology: The role of open source appropriate
+  technology in sustainable development.
+\newblock \emph{Journal of Sustainable Development}, 16\penalty0 (4):\penalty0
+  1--15, 2023.
 
-\bibitem[Rana and et~al.(2023)]{rana2023}
-M.~S. Rana and et~al.
-\newblock Geographical dependence of open hardware optimization: Case study of
-  solar photovoltaic racking.
-\newblock \emph{Journal of Open Hardware}, 2023.
-
-\bibitem[Ryder and et~al.(2023)]{ryder2023}
-Simon Ryder and et~al.
-\newblock Do the ends justify the means? problematizing social acceptance and
-  instrumentally-driven community engagement in proposed energy projects.
-\newblock \emph{Energy Research \& Social Science}, 2023.
-
-\bibitem[Sovacool and Dworkin(2015)]{sovacool2015}
-B.~K. Sovacool and M.~H. Dworkin.
+\bibitem[Sovacool and Dworkin(2015)]{sovacool_dworkin_2015}
+Benjamin~K Sovacool and Michael~H Dworkin.
 \newblock Energy justice: Conceptual insights and practical applications.
-\newblock \emph{Annual Review of Environment and Resources}, 2015.
+\newblock \emph{Energy Policy}, 74:\penalty0 521--525, 2015.
 
 \end{thebibliography}

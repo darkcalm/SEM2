@@ -1,32 +1,62 @@
-\documentclass[12pt, letterpaper]{article}
+\documentclass[11pt, letterpaper, twocolumn]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage{natbib}
+\usepackage{lipsum}
+\usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage[margin=1in]{geometry}
-\usepackage{natbib}
+\usepackage{url}
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue
+}
+
+\title{\textbf{Beyond the Bottom Line: A Methodological Argument for Open Science in Energy Research}}
+\author{Para}
+\date{\today}
 
 \begin{document}
 
-\begin{center}
-    \large{\textbf{Architects of a Just Transition: From Instrumental Engagement to Open Empowerment}} \\
-    \vspace{1em}
-    \normalsize{Gemini} \\
-    \normalsize{\today}
-\end{center}
-\vspace{2em}
+\maketitle
 
-The global effort to transition to sustainable energy has a core ethical problem. Too often, projects designed for the planet's health create injustice for local communities. This happens because developers often take a top-down approach, treating community engagement as a box to tick for project approval rather than a true partnership. To build a truly fair and sustainable energy system, we need to change how we work. The solution is to adopt open science. This approach can fix these ethical problems by sharing information freely and giving communities the power to shape their own energy future, especially through tools like Open Source Appropriate Technology.
+\begin{abstract}
+\noindent The pervasive ethical and sustainability failures in energy research are not merely a consequence of poor policy or corporate malfeasance, but are fundamentally rooted in entrenched, top-down research methodologies that prioritize quantitative metrics and procedural simplicity over genuine justice. A true shift towards sustainable and ethical energy systems therefore requires a corresponding methodological revolution, one that is enabled and exemplified by the principles of open science, which provides the necessary framework to move from extractive, instrumental research to a more just, participatory, and co-productive paradigm.
+\end{abstract}
 
-In many energy projects, the way communities are engaged is designed to control opposition, not to build partnerships. This is a deep ethical failure. It often looks like a "tick-box" exercise where developers hold meetings just to satisfy legal rules, without any real intention of using the feedback they receive \citep{ryder2023}. This breeds distrust. We also see this in Community Benefit Agreements (CBAs), which can become simple transactions to buy a community's permission, rather than good-faith efforts to reduce a project's negative impacts \citep{eisenson2023}. This approach fails to deliver what is known as 'energy justice'. True energy justice isn't just about sharing the financial benefits of a project fairly. According to researchers like \citet{sovacool2015} and \citet{miller2014}, it also means that decision-making processes must be fair and inclusive, and that different cultures and values must be respected. The current top-down model fails on both of these points. This problem is made worse by the closed nature of the research that backs these projects. When data is kept secret, communities are left without power and public trust is damaged \citep{alonso2025}.
+\section{Introduction}
 
-Open science offers a direct solution. By promoting transparency and collaboration, it can make the energy transition fairer and more effective. It fights the culture of secrecy in research by making data, code, and methods freely available. This allows for others to check the work and builds the public trust we need to tackle climate change. More importantly, open science addresses the core problem of power imbalance. When information is shared openly, communities can participate in decisions in a meaningful way. Access to information allows them to move from the sidelines to the center of the process.
+Consider a common scenario: a new wind farm is proposed, and the developer, seeking to secure a "social license to operate," offers the local community a benefits package---a sum of money, a new community hall. Yet, local opposition remains, rooted in concerns about visual impact, land use, and a feeling of powerlessness. The community benefit agreement, designed to placate, instead feels like a transaction that papers over a deeper procedural injustice. This exemplifies the "instrumental" paradigm in energy research, where community engagement is a tool for project acceptance, not genuine partnership \citep{eisenson_webb_2023}. This paper argues that such failures are not incidental, but are the direct products of the research methodologies we choose. It will first critique how dominant, quantitative methods create these ethical problems, then analyze the institutional inertia that "locks in" these flawed methods, and finally present open science not merely as a call for transparency, but as a methodological revolution capable of fostering a more just and sustainable energy future.
 
-Open Source Appropriate Technology (OSAT) is where this principle comes to life. Instead of imposing a one-size-fits-all product, OSAT provides flexible designs that can be adapted to local needs. For example, an open-source design for solar panel racking can be built with wood or metal depending on local costs, giving local people the power to make their own design choices and lowering project expenses \citep{rana2023}. Another example is the creation of low-cost, open-source lab equipment like a solar-powered ball mill, which makes the tools of science available to everyone \citep{mottaghi2023}. As argued by \citet{pierce2019}, sharing this kind of knowledge and capability is key. OSAT turns communities from passive customers into active builders and owners.
+\section{The Methodological Roots of Ethical Failure}
 
-The injustices we see in the energy transition are not accidents; they are the direct result of a closed, top-down way of working. The only way to fix this is to shift to an open model. Open science is not just about better research; it is about changing who holds power. By providing the tools and the framework to share information freely, it allows communities to become active architects of their own energy future, not just bystanders. This is how we can build an energy system that is both sustainable for the planet and just for all of its people.
+The choice of a research method is not a neutral act; it is a political one that defines what is worth measuring and who is worth listening to. The dominant methods in energy project evaluation---such as Cost-Benefit Analysis (CBA) or contingent valuation---systematically marginalize the core tenets of energy justice. By reducing complex social and environmental impacts to a single monetary value, they create a veneer of objectivity that masks deep-seated biases. As \citet{sovacool_dworkin_2015} argue, this focus on *distributive* justice (who gets what) inherently ignores *procedural* justice (who decides) and *recognition* justice (whose values and culture are recognized). The result is a process that may appear "efficient" on paper but breeds distrust and inequity in reality.
+
+A clear case of this methodological failure can be seen in the deployment of residential solar energy. As \citet{chester_2018} found in a study of low-income households in Australia, prevailing models for solar adoption are built on the flawed methodological assumption of a "rational consumer" who will respond predictably to economic incentives. This model completely fails to account for the complex, real-world barriers these communities face, such as a lack of trust in providers, the split incentive between renters and landlords, and a lack of access to capital. By using qualitative methods like focus groups, Chester's research revealed that trust and community-specific knowledge were far more important than simple price signals. The failure to deploy solar equitably was, at its core, a failure to choose a research methodology that could see the community as anything other than a set of economic actors.
+
+\section{Institutional Inertia: Why Good Intentions Fail}
+
+Even when individual researchers or developers recognize the limitations of these methods, they are often constrained by a powerful institutional inertia. The problem is systemic. The methodologies that are easiest to fund, that lead to the most straightforwardly publishable results, and that are institutionally sanctioned are precisely those that perpetuate the instrumental paradigm.
+
+The most compelling evidence of this "methodological lock-in" comes from a recent meta-analysis by \citet{arkhurst_2023}. They studied the effectiveness of the "JUST-R" framework, a tool explicitly designed to help early-stage researchers integrate energy justice considerations into their work. Their findings were stark: while the framework was effective at raising awareness and helping researchers identify problems, it was almost entirely ineffective at prompting them to actually change their research design or apply solutions. Researchers cited a lack of time, funding, institutional support, and specific expertise (particularly in social sciences) as insurmountable barriers. This demonstrates that simply telling researchers to "consider justice" is not enough. Without a supporting ecosystem that values, funds, and provides expertise for alternative methodologies, even the best intentions are thwarted by the path of least institutional resistance.
+
+\section{Open Science as a Methodological Revolution}
+
+Herein lies the true potential of open science. It is not merely a call for "open data," but a framework that can catalyze a fundamental shift in research *methodology*. It provides the practical tools and the philosophical underpinning to break the methodological monoculture and move from top-down, extractive research to a more just, participatory paradigm.
+
+First, open science enables methodological pluralism. Openly available data, open-source analytical tools, and transparent communication platforms provide the necessary infrastructure for methods that are currently marginalized. For example, genuine Participatory Action Research (PAR)---where communities act as co-researchers rather than as subjects---becomes feasible when all parties have access to the same information and tools. This approach directly addresses the procedural and recognition justice failures by embedding community values into the very fabric of the research process, moving far beyond the superficiality of a town hall meeting.
+
+Second, the movement for Open Source Appropriate Technology (OSAT) provides a powerful example of this new methodology in practice \citep{rana_2023, pearce_2019}. Unlike proprietary, black-box technologies, OSAT solutions are designed to be adaptable and repairable using local knowledge and materials. The technology is not a rigid, imposed solution; its open design represents a *co-productive* research and deployment process. This transforms communities from passive recipients of technology into active owners and innovators, moving beyond merely distributing the benefits of an energy system to co-creating the very means of production.
+
+\section{Conclusion}
+
+The path to a just and sustainable energy future is not paved with better intentions alone; it must be built on a foundation of better research methodologies. The ethical failings that plague the energy sector are the predictable outcomes of a system that defaults to top-down, quantitative, and opaque methods that are unable to capture the complexities of justice. While institutional inertia powerfully locks these flawed methods in place, open science provides the key to a new paradigm. By fostering methodological pluralism and enabling co-productive models like OSAT, it offers a practical pathway to move beyond the instrumentalism of the past. For research institutions, funders, and policymakers, the lesson is clear: if we are serious about energy justice, we must invest not just in new technologies, but in the deep, methodological, and structural changes required to research and deploy them equitably.
 
 \bibliographystyle{plainnat}
 \bibliography{references}
