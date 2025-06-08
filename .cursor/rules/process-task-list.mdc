@@ -1,0 +1,37 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Task List Management
+
+Guidelines for managing task lists in markdown files to track progress on completing a PRD. All directories mentioned below are with respective to the root folder of the repository.
+
+_Note: In this specific project, the document serving as the PRD is `docs/1.2.3-project-charter.md`._
+
+## AI Instructions
+
+When working with task lists, the AI must:
+
+1. **Initiation or After Task Execution:**
+    - If all subtasks under parent are `[x]`, mark parent `[x]`
+    - **One sub-task at a time:** Do not mark the task you are working on with `[x]` and executing the next task until you have examined progess and have asked the user for permission and they say “yes” or "y"
+    - New tasks should not be created until you have examined progess and have asked the user for permission and they say “yes” or "y"
+
+2. **Before Task Execution:**
+    - Read the file names of all first-layer files or directories under `util/`, `data/` and `docs/`
+    - Read the files with the current task number and prior (given X.Y.Z, **All of** X.Y.Z, X.Y.Z-1, X.Y-1.latest)
+    - Read any prior file mentioned during any reading, and stop when several newer readings do not change how you would execute the task
+    - Search and employ best practices for each task with a field of protocols (ex. literature search, survey creation, data extraction)
+
+3. **During Task Execution:**
+    - Input file locations should be generated if none exists:
+        - `archive/` - Files not directly used by this project, such as reference code, or deleted files of tasks that were later trimmed
+        - `external/` - Inputs from the user, or output directory of APIs
+    - Output file locations should be generated if none exists:
+        - `data/` - Processing output of `tools/`
+        - `util/` - Scripts or utilities output to `data/`
+        - `docs/` - Scripts summarizing data for use of documentation, and the output documentation themselves, each documentation having a file name that start with the task (X.Y.Z or X.Y) it summarizes
+    - When working with a directory, a list, or a set of data, you must create a data source under `data/` to ensure each detail is stored, and you must create a script under `util/` to ensure each detail is processed
+    - When data processing requires a set of categories or rules, you must create a data source under `data/` to ensure each rule is stored, and you must create a script under `util/` to ensure each rule is executed
+    - Scripts under `util/` must use files or directories under `external/` or `data/` as arguments, such that there are minimal specific data in the scripts themselves
