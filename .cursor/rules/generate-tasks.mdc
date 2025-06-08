@@ -60,7 +60,7 @@ The generated task list _must_ follow this structure:
 - Dependencies follow recency pattern:
   - Task X.Y.Z depends on X.Y.Z-1, X.Y.Z-2, etc.
   - Then X.Y-1.*, X.Y-2.*, etc.
-  - Only check earlier dependencies if context is insufficient
+  - State earlier dependencies if context is insufficient
 
 ## Quality Assurance
 
@@ -72,7 +72,7 @@ The generated task list _must_ follow this structure:
 
 ## Interaction Model
 
-The process explicitly requires a pause after generating parent tasks to get user confirmation ("Go") before proceeding to generate the detailed sub-tasks. This ensures the high-level plan aligns with user expectations before diving into details.
+The process explicitly requires a pause after generating parent tasks to get user confirmation ("Go") before proceeding to generate the detailed sub-tasks. This ensures the high-level plan aligns with user expectations before diving into details. Do NOT start implementing the first task.
 
 ## Target Audience
 

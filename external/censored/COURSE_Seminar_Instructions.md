@@ -96,6 +96,6 @@ the seminar and group presentation. 2. Individual reflection in line with the ob
 Grading Criteria  
 Course Component SEMC: Ethics in Engine ering Research and Practice ( 1 credit; P/F)  
 Minimum Requirement to Pass  
-Makes a credible argument for how sustainability and ethics dimensions are treated in COURSE_TERM , and how COURSE_TERM can aid good research practice in this regard . Weighs methodology 
+Makes a credible argument for how sustainability and ethics dimensions are treated in energy research, and how open science can aid good research practice in this regard . Weighs methodology 
 choices to address sustainability dimensions and ethical code of conduct in scientific research.  
  \n
