@@ -5,50 +5,38 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Alonso~Pedrero and Van~de Sande~Araujo(2025)]{alonso2025}
-Rocío Alonso~Pedrero and Felipe Van~de Sande~Araujo.
-\newblock Open science in energy research.
-\newblock \emph{Open Research Europe}, 2025.
-\newblock \doi{10.12688/openreseurope.18195.1}.
-\newblock Version 1.
+\bibitem[Eales(2024)]{eales2024}
+A.~Eales.
+\newblock Global perspectives on community energy for a just transition.
+\newblock Technical report, University of Strathclyde, 2024.
 
-\bibitem[Bethem et~al.(2020)Bethem, Frigo, Biswas, DesRoches, and
-  Pasqualetti]{bethem2020}
-Jacob Bethem, Giovanni Frigo, Saurabh Biswas, C.~Tyler DesRoches, and Martin
-  Pasqualetti.
-\newblock Energy decisions within an applied ethics framework: an analysis of
-  five recent controversies.
-\newblock \emph{Energy, Sustainability and Society}, 10\penalty0 (1):\penalty0
-  29, 2020.
-\newblock \doi{10.1186/s13705-020-00261-6}.
+\bibitem[Eisenson and Webb(2023)]{eisenson2023}
+M.~Eisenson and R.~M. Webb.
+\newblock Expert insights on best practices for community benefits agreements.
+\newblock Technical report, Lawrence Berkeley National Laboratory, 2023.
 
-\bibitem[Fell et~al.(2024)Fell, Watson, and Huebner]{fell2024}
-Michael~J. Fell, N.~E. Watson, and Gesche Huebner.
-\newblock Open science and the climate crisis.
-\newblock \emph{PLOS Climate}, 3\penalty0 (1):\penalty0 e0000350, 2024.
-\newblock \doi{10.1371/journal.pclm.0000350}.
+\bibitem[Hannon and et~al.(2023)]{hannon2023}
+M.~Hannon and et~al.
+\newblock Community participation for community benefits from natural capital
+  projects.
+\newblock \emph{Journal of Environmental Management}, 2023.
 
-\bibitem[Miller(2014)]{miller2014}
-Clark Miller.
-\newblock Ethics of energy transitions.
-\newblock \emph{Online Ethics Center for Engineering and Science}, 2014.
-\newblock \doi{10.18130/xkze-cw40}.
-\newblock URL
-  \url{https://onlineethics.org/cases/energy-ethics/ethics-energy-transitions}.
+\bibitem[Pearce(2019)]{pierce2019}
+Joshua~M. Pearce.
+\newblock The pivotal role of open source knowledge transfer to achieve
+  universal energy access.
+\newblock \emph{Zeitschrift für Wirtschaftsgeographie}, 63:\penalty0 1--19,
+  2019.
 
-\bibitem[Mottaghi et~al.(2023)Mottaghi, Carriveau, Ting, and
-  Pearce]{mottaghi2023}
-Mobin Mottaghi, Rupp Carriveau, David S-K Ting, and Joshua~M. Pearce.
-\newblock Ac/off-grid photovoltaic powered open-source ball mill.
-\newblock \emph{HardwareX}, 13:\penalty0 e00392, 2023.
-\newblock \doi{10.1016/j.ohx.2023.e00392}.
+\bibitem[Ryder and et~al.(2023)]{ryder2023}
+Simon Ryder and et~al.
+\newblock Do the ends justify the means? problematizing social acceptance and
+  instrumentally-driven community engagement in proposed energy projects.
+\newblock \emph{Energy Research \& Social Science}, 2023.
 
-\bibitem[Rana et~al.(2023)Rana, Zoss, Miro, Taylor, Anzalone, and
-  Pearce]{rana2023}
-S.~Rana, J.~Zoss, A.~Miro, A.~Taylor, N.~Anzalone, and J.~M. Pearce.
-\newblock Geographical dependence of open hardware optimization: Case study of
-  solar photovoltaic racking.
-\newblock \emph{Technologies}, 11\penalty0 (1):\penalty0 14, 2023.
-\newblock \doi{10.3390/technologies11010014}.
+\bibitem[Sovacool and Dworkin(2015)]{sovacool2015}
+B.~K. Sovacool and M.~H. Dworkin.
+\newblock Energy justice: Conceptual insights and practical applications.
+\newblock \emph{Annual Review of Environment and Resources}, 2015.
 
 \end{thebibliography}

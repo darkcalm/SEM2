@@ -7,25 +7,24 @@ This document outlines the requirements for creating a two-page reflection paper
 ## 2. Goals
 
 - **Primary Goal:** To produce a concise and compelling reflection paper of approximately two pages (excluding references).
-- **Core Argument:** To satisfy the course's grading criteria by **critically analyzing how sustainability and ethics dimensions are currently addressed in energy research** and arguing how open science can aid good research practice in this regard.
+- **Core Argument:** To satisfy the course's grading criteria by making a credible argument for how sustainability and ethics dimensions are addressed in energy research, and how open science can aid good research practice in this regard.
 - **Methodological Focus:** The argument must weigh different methodology choices to address sustainability dimensions and ethical codes of conduct in scientific research.
 
 ## 3. User Stories
 
 - As a student, I want to analyze the provided article on open source knowledge transfer to identify the core concepts at the intersection of open science, ethics, and sustainability in the energy sector.
-- As a student, I want to **perform a semantic literature search using queries derived from the core argument to find academic papers on how sustainability and ethics are currently treated in energy research.**
+- As a student, I want to perform a literature search using predefined keywords to gather a broader set of academic perspectives and evidence.
 - As a student, I want to synthesize the findings from the initial article and the subsequent literature review to construct a coherent, central argument.
 - As a student, I want to write a two-page paper that logically structures and presents this argument, supported by evidence from the collected literature.
 
 ## 4. Functional Requirements
 
 1.  **Analyze Source Material:** The initial article, `The pivotal role of open source knowledge transfer to achieve universal energy access.md`, must be thoroughly analyzed to extract key themes and arguments.
-2.  **Conduct Semantic Search:** A semantic literature search must be performed using the Semantic Scholar and CORE APIs (via their web interfaces) to find relevant academic papers that address the core argument.
-3.  **Critically Analyze Literature:** The search results must be analyzed to identify both exemplary practices and common failings in how energy research addresses sustainability and ethics.
-4.  **Synthesize Information:** The findings from the source article and the literature review must be synthesized to build a cohesive and well-supported argument.
-5.  **Structure the Argument:** The paper should be structured logically around the central argument, rather than conforming to a rigid section-based format.
-6.  **Draft the Paper:** A draft of the reflection paper, approximately two pages in length, must be written.
-7.  **Manage References:** A consistent citation format must be used, and a complete reference list must be included.
+2.  **Conduct Literature Search:** A literature search must be performed using search terms derived from the `.env` file to find relevant academic papers.
+3.  **Synthesize Information:** The findings from the source article and the literature review must be synthesized to build a cohesive and well-supported argument.
+4.  **Structure the Argument:** The paper should be structured logically around the central argument, rather than conforming to a rigid section-based format (e.g., Introduction, Body, Conclusion).
+5.  **Draft the Paper:** A draft of the reflection paper, approximately two pages in length, must be written.
+6.  **Manage References:** A consistent citation format must be used, and a complete reference list must be included.
 
 ## 5. Non-Goals (Out of Scope)
 
@@ -39,13 +38,13 @@ This document outlines the requirements for creating a two-page reflection paper
 
 ## 7. Technical Considerations (Optional)
 
-- The literature search will be conducted using semantic queries targeted at academic search engines like Semantic Scholar and CORE.
+- The literature search will be conducted using appropriate academic search tools.
 
 ## 8. Success Metrics
 
 - The final paper meets all functional requirements and adheres to the specified length.
-- The central argument is clear, logical, and directly addresses the assignment's prompt, including a critical analysis of current practices.
-- The argument is well-supported by evidence from the provided article and the semantic literature search.
+- The central argument is clear, logical, and directly addresses the assignment's prompt.
+- The argument is well-supported by evidence from the provided article and the literature search.
 - The entire process is systematically executed and documented according to the specified project rules.
 
 ## 9. Open Questions
