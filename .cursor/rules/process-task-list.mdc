@@ -7,8 +7,6 @@ alwaysApply: false
 
 Guidelines for managing task lists in markdown files to track progress on completing a PRD. All directories mentioned below are with respective to the root folder of the repository.
 
-_Note: In this specific project, the document serving as the PRD is `docs/1.2.3-project-charter.md`._
-
 ## AI Instructions
 
 When working with task lists, the AI must:
