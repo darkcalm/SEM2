@@ -1,0 +1,102 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue
+}
+
+% Compact title setup
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\Large\bfseries \@title \par}%
+    \vskip 1.5em%
+    {\normalsize
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 1em%
+    {\normalsize \@date}%
+  \end{center}%
+  \par
+  \vskip 1.5em}
+\makeatother
+
+
+\title{The Ethical Dimensions of Method: \\ A Descriptive Analysis of Research Practice}
+\author{Para}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Research carries a dual responsibility: to produce reliable knowledge and to do so in a way that respects the dignity and welfare of all involved. These two duties are not separate; they are deeply intertwined. The methodological choices a researcher makes fundamentally shape the ethical landscape of their work. This paper offers a descriptive map of this terrain. It does not seek to critique or rank methodologies, but rather to analyze how different research practices bring different ethical considerations to the forefront. 
+
+To do this, we first introduce a key distinction between `procedural ethics'---the formal rules of research conduct---and `ethics in practice'---the everyday ethical judgments researchers make. We then use this lens to explore four major families of research methods: quantitative, qualitative, participatory, and internet-mediated. We will describe the primary ethical dimensions associated with each, showing how a choice of method is also a choice of a particular ethical framework.
+
+\section{Framing the Landscape}
+
+A useful way to understand the ethics of research is to distinguish between two interconnected domains \citep{ec_2018}. The first is **procedural ethics**, which refers to the formal systems of compliance: institutional review boards (IRBs), data protection regulations like GDPR, and the signed consent forms that govern much of modern research. These are the `rules of the road,' designed to provide a baseline of protection for research participants.
+
+The second domain is **ethics in practice**. This encompasses the `ethically important moments' that arise in the day-to-day work of research---the subtle, context-dependent decisions that are not always covered by formal rules but are nonetheless crucial for ethical conduct. This framework allows for a more nuanced analysis, moving beyond a simple checklist approach to a richer description of how formal procedures interact with the practical realities of inquiry.
+
+\section{A Tour of Methodological Families}
+
+\subsection{Quantitative and Economic Methods}
+
+Quantitative methods, such as cost-benefit analysis (CBA), seek to produce objective, often numerical, representations of phenomena. Their goal is to create standardized metrics that allow for comparison across different contexts.
+
+From an ethical perspective, these methods are primarily oriented toward questions of **distributive justice**---that is, quantifying and allocating costs and benefits among a population. However, a crucial ethical dimension here is the principle that methodologically poor science is itself unethical \citep{wieten_2017}. A flawed study that exposes participants to even minimal risk for no chance of producing reliable knowledge is an ethical failure. Furthermore, by aggregating diverse human experiences into a single numerical output, these methods can sometimes sideline questions of **recognition justice**, which is concerned with respecting the diverse values and cultures that may not be easily quantified.
+
+\subsection{Qualitative and Ethnographic Methods}
+
+In contrast, qualitative methods---such as in-depth interviews, focus groups, and ethnographic observation---seek to understand phenomena from the perspective of the actors involved. They focus on meaning, social context, and lived experience. A sophisticated example is the `biography of artifacts and practices' (BOAP) framework, which uses longitudinal study to trace how technologies evolve over time \citep{hyysalo_pollock_williams_2019}.
+
+The ethical terrain of these methods is different. They are particularly well-suited to exploring **recognition justice** by centering local knowledge and cultural values, and **procedural justice** by uncovering community perceptions of fairness. The primary ethical risks are rarely physical, but rather social and psychological. Breaches of privacy, failures of confidentiality, and the potential for stigmatization are paramount concerns \citep{ec_2018}. Secure data management and the robust protection of participant anonymity become core ethical obligations.
+
+\subsection{Participatory Methods}
+
+Participatory methods, like Participatory Action Research (PAR), go a step further by actively involving research subjects as co-producers of knowledge. This approach intentionally breaks down the traditional hierarchy between the researcher and the researched.
+
+Here, the ethical framework is explicitly designed to embody **procedural justice**. The central ethical challenges shift away from simply `protecting' subjects toward navigating the complex dynamics of collaboration. Questions of shared ownership of data, equitable distribution of any benefits that arise from the research, and the transparent negotiation of power relations within the research team become the primary ethical considerations.
+
+\subsection{Internet-Mediated Research}
+
+A fourth and rapidly growing family of methods uses the internet as both a site and a tool for research, for example through the analysis of social media data. This domain presents unique ethical challenges. A central tension exists between what is `publicly available' and what is ethically `fair game' for research.
+
+Key ethical questions revolve around the user's reasonable expectation of privacy, even on a public platform. Obtaining meaningful informed consent is often difficult, if not impossible. Furthermore, the **`mosaic effect'** describes the risk of re-identification that can occur when multiple anonymized datasets are combined, inadvertently revealing private information about individuals \citep{ec_2018}.
+
+\section{The Figure of the Methodologist}
+
+The evolution of these methods and their associated ethical norms is not an abstract process. It is driven by the work of specific scientific actors who can be described as **``methodologists''** \citep{nelson_2020}. These are researchers who focus their attention on the tools of inquiry themselves---questioning, testing, and refining the methods that their peers may take for granted.
+
+Describing the work of these actors is key to understanding how the ethical landscape of research changes. Their debates---over statistical techniques, the design of consent forms, or the guidelines for internet research---reveal that methodological and ethical standards are not static. They are the product of ongoing inquiry and deliberation within scientific communities.
+
+\section{Conclusion}
+
+This descriptive analysis shows that the choice of a research method is not merely a technical decision; it is an ethical one. Each family of methods---quantitative, qualitative, participatory, and internet-mediated---opens up a distinct ethical terrain, prioritizing certain principles and presenting unique challenges. The formal rules of procedural ethics provide a necessary foundation, but they are not sufficient. Ethical research requires a constant, reflexive engagement with the messy realities of ethics in practice. It is an ongoing process of judgment and deliberation, not a checklist to be completed once.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document} 

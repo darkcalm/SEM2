@@ -1,46 +1,22 @@
-This is BibTeX, Version 0.99d (TeX Live 2025)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: semc-reflection-paper.aux
-The style file: plainnat.bst
-Database file #1: references.bib
-You've used 4 entries,
-            2773 wiz_defined-function locations,
-            621 strings with 5765 characters,
-and the built_in function-call counts, 1443 in all, are:
-= -- 131
-> -- 60
-< -- 3
-+ -- 22
-- -- 18
-* -- 99
-:= -- 235
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 19
-chr.to.int$ -- 4
-cite$ -- 8
-duplicate$ -- 71
-empty$ -- 130
-format.name$ -- 22
-if$ -- 293
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 28
-num.names$ -- 16
-pop$ -- 35
-preamble$ -- 1
-purify$ -- 14
-quote$ -- 0
-skip$ -- 52
-stack$ -- 0
-substring$ -- 40
-swap$ -- 4
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 44
-warning$ -- 0
-while$ -- 16
-width$ -- 0
-write$ -- 58
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'semc-reflection-paper.blg'
+[85] biber-darwin:340> INFO - === Mon Jun  9, 2025, 11:28:55
+[105] Biber.pm:420> INFO - Reading 'semc-reflection-paper.bcf'
+[204] Biber.pm:994> INFO - Found 7 citekeys in bib section 0
+[223] Biber.pm:4463> INFO - Processing section 0
+[237] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[245] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[245] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[246] bbl.pm:676> INFO - Writing 'semc-reflection-paper.bbl' with encoding 'UTF-8'
+[246] bbl.pm:779> INFO - Output to semc-reflection-paper.bbl
+[246] Biber.pm:131> WARN - Data source 'references.bib' contains no BibTeX entries/macros, ignoring
+[246] Biber.pm:131> WARN - I didn't find a database entry for 'Wieten2017' (section 0)
+[246] Biber.pm:131> WARN - I didn't find a database entry for 'Sovacool2015' (section 0)
+[247] Biber.pm:131> WARN - I didn't find a database entry for 'VegaAraujo2022' (section 0)
+[247] Biber.pm:131> WARN - I didn't find a database entry for 'AlonsoPedrero2025' (section 0)
+[247] Biber.pm:131> WARN - I didn't find a database entry for 'Gross2007' (section 0)
+[247] Biber.pm:131> WARN - I didn't find a database entry for 'Pearce2019' (section 0)
+[247] Biber.pm:131> WARN - I didn't find a database entry for 'Rana2023' (section 0)
+[247] Biber.pm:133> INFO - WARNINGS: 8

@@ -1,24 +1,31 @@
 ## Deliverables
 
-- `deliverables/semc-reflection-paper.pdf` - The final, descriptive, and well-sourced PDF.
+- `data/1.2.1-synthesis-of-past-efforts.md` - Summary of lessons from V1-V6, focusing on the new V7 mandate.
+- `data/2.2.1-annotated-bibliography.md` - Consolidated bibliography focusing on energy justice and open science sources.
+- `data/3.1.1-final-synthesis.md` - Comprehensive synthesis connecting methodology, ethics, and open science solutions.
+- `docs/3.2.1-thesis-statement.md` - The final thesis statement for the V7 paper.
+- `docs/3.3.1-paper-outline.md` - A detailed outline of the paper incorporating the open science dimension.
+- `deliverables/semc-reflection-paper.tex` - The LaTeX source for the final reflection paper.
+- `deliverables/references.bib` - The BibTeX file for managing citations.
+- `deliverables/semc-reflection-paper.pdf` - The final, formatted PDF of the reflection paper.
 
 ## Tasks (refer to @.cursor/rules/process-task-list before executing)
 
-- [ ] 1.0 Parent Task: Research and Synthesis
-  - [ ] 1.1 Synthesize Past Efforts
-    - [ ] 1.1.1 Consolidate the synthesis documents from all four prior attempts into `data/1.1.1-comprehensive-synthesis.md`.
-  - [ ] 1.2 Conduct Broader Methodological Research
-    - [ ] 1.2.1 Formulate a wide range of semantic search queries to find literature on research methodologies in energy, sustainability, and science and technology studies.
-    - [ ] 1.2.2 Execute these searches to gather a broad corpus of relevant papers.
-    - [ ] 1.2.3 Create a new, expanded annotated bibliography in `data/1.2.3-expanded-bibliography.md`.
-  - [ ] 1.3 Create Final Descriptive Synthesis
-    - [ ] 1.3.1 Create a final, unified synthesis in `data/1.3.1-descriptive-synthesis.md` that maps the relationship between different methodologies and their ethical dimensions, based on the comprehensive synthesis and the new, broader research.
-
-- [ ] 2.0 Parent Task: Formulate Argument and Draft Paper
-  - [ ] 2.1 Formulate Descriptive Argument
-    - [ ] 2.1.1 Formulate a thesis statement that describes the link between methodology and ethics as a subject for analysis. Save to `docs/2.1.1-descriptive-thesis.md`.
-    - [ ] 2.1.2 Create an outline in `docs/2.1.2-descriptive-outline.md` that structures the paper as a descriptive mapping exercise.
-  - [ ] 2.2 Draft Final Paper (Deliverable)
-    - [ ] 2.2.1 Create the final BibTeX file `deliverables/references.bib`.
-    - [ ] 2.2.2 Write the final draft in `deliverables/semc-reflection-paper.tex`, ensuring a simple, descriptive tone and adhering to all formatting requirements (quotes, compact title).
-    - [ ] 2.2.3 Compile the LaTeX source to produce the final PDF, resolving any errors. 
+- [x] 1.0 V7 Project Setup and Review
+  - [x] 1.1 [Create new directory structure for V7: `data`, `docs`, `deliverables`]
+  - [x] 1.2 [Review all past versions (`archive/` through `archive_v6/`) and create a synthesis document identifying key themes and the specific mandate for V7] (Deliverable)
+- [x] 2.0 V7 Literature Review
+  - [x] 2.1 [Compile a master list of all previously cited sources, with a focus on energy justice and open science literature]
+  - [x] 2.2 [Create a new, consolidated annotated bibliography for V7, with a dedicated section on open science sources] (Deliverable)
+- [ ] 3.0 V7 Synthesis and Argument Development
+  - [x] 3.1 [Synthesize findings into a new document that explicitly connects methodology, ethics, and open science solutions using energy case studies] (Deliverable)
+  - [x] 3.2 [Formulate a new, three-part thesis statement based on the V7 synthesis] (Deliverable)
+  - [x] 3.3 [Create a detailed outline for the paper that integrates the open science discussion into each section] (Deliverable)
+- [x] 4.0 Draft and Refine V7 Paper
+  - [x] 4.1 [Write the first draft of the final reflection paper in a new `.tex` file] (Deliverable)
+  - [x] 4.2 [Create the final bibliography file (`.bib`) with all cited sources for V7] (Deliverable)
+  - [x] 4.3 [Revise the V7 draft for clarity, simplicity, and adherence to the descriptive tone]
+- [x] 5.0 Finalize Deliverable
+  - [x] 5.1 [Format the `.tex` document according to all PRD specifications]
+  - [x] 5.2 [Compile the final LaTeX document to generate the PDF, ensuring all citations are correct] (Deliverable)
+  - [x] 5.3 [Perform a final proofread of the generated PDF for any errors] 

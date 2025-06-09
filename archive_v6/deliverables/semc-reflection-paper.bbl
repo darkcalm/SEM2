@@ -1,0 +1,41 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gross(2007)]{gross_2007}
+Catherine Gross.
+\newblock Community perspectives of wind energy in australia: The application
+  of a justice and community fairness framework to increase social acceptance.
+\newblock \emph{Energy Policy}, 35\penalty0 (5):\penalty0 2727--2736, 2007.
+
+\bibitem[Jenkins et~al.(2016)Jenkins, McCauley, Heffron, Stephan, and
+  Rehner]{jenkins_mccauley_heffron_2016}
+Kirsten Jenkins, Darren McCauley, Raphael Heffron, Hannes Stephan, and Robert
+  Rehner.
+\newblock Energy justice: a conceptual review.
+\newblock \emph{Energy Research \& Social Science}, 11:\penalty0 174--182,
+  2016.
+
+\bibitem[Sovacool and Dworkin(2015)]{sovacool_dworkin_2015}
+Benjamin~K Sovacool and Michael~H Dworkin.
+\newblock Energy justice: Conceptual insights and practical applications.
+\newblock \emph{Energy Policy}, 74:\penalty0 521--525, 2015.
+
+\bibitem[Vega-Araújo and Heffron(2022)]{vega-araujo_heffron_2022}
+José Vega-Araújo and Raphael~J. Heffron.
+\newblock Assessing elements of energy justice in colombia: A case study on
+  transmission infrastructure in la guajira.
+\newblock \emph{Energy Research \& Social Science}, 91:\penalty0 102688, 2022.
+
+\bibitem[Wieten(2017)]{wieten_2017}
+Sarah Wieten.
+\newblock Not just about consent: The ethical dimensions of research
+  methodology knowledge in irbs.
+\newblock
+  \\url{https://blogs.bmj.com/medical-ethics/2017/06/15/not-just-about-consent-the-ethical-dimensions-of-research-methodology-knowledge-in-irbs/},
+  Jun 2017.
+
+\end{thebibliography}

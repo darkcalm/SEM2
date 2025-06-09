@@ -1,102 +1,42 @@
-\documentclass[11pt, letterpaper]{article}
+\documentclass[a4paper, 11pt, twoside]{article}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.5cm, bottom=2.5cm]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=1in]{geometry}
-\usepackage{times}
-\usepackage{natbib}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
+\usepackage{fancyhdr}
 \usepackage{url}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    citecolor=blue
-}
+\usepackage{microtype}
+\usepackage[backend=biber, style=authoryear]{biblatex}
 
-% Compact title setup
-\makeatletter
-\def\@maketitle{%
-  \newpage
-  \null
-  \vskip 2em%
-  \begin{center}%
-  \let \footnote \thanks
-    {\Large\bfseries \@title \par}%
-    \vskip 1.5em%
-    {\normalsize
-      \lineskip .5em%
-      \begin{tabular}[t]{c}%
-        \@author
-      \end{tabular}\par}%
-    \vskip 1em%
-    {\normalsize \@date}%
-  \end{center}%
-  \par
-  \vskip 1.5em}
-\makeatother
-
-
-\title{The Ethical Dimensions of Method: \\ A Descriptive Analysis of Research Practice}
-\author{Para}
+\author{Your Name}
 \date{\today}
+\title{Methodology, Justice, and Open Science in Energy Research}
+
+\addbibresource{references.bib}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
+\section*{Introduction}
+The increasing complexity of energy systems demands a parallel sophistication in how we conduct research. The dual responsibility of research—to produce reliable knowledge and to do so in an ethically robust manner—is nowhere more apparent \parencite{Wieten2017}. This reflection provides a descriptive analysis of the deep connection between research methodology, ethical dimensions, and the role of open science in the energy sector. It argues that methodological choices are not merely technical decisions but are foundational ethical choices that define the moral landscape of an inquiry. Using the tenets of energy justice—distributive, procedural, and recognition—as an analytical lens \parencite{Sovacool2015}, this assignment maps how three families of research methodologies differently reveal these ethical terrains. Further, it proposes that specific, practical open science solutions can help researchers navigate these complexities, fostering research that is not only scientifically sound but also more transparent, just, and accountable.
 
-Research carries a dual responsibility: to produce reliable knowledge and to do so in a way that respects the dignity and welfare of all involved. These two duties are not separate; they are deeply intertwined. The methodological choices a researcher makes fundamentally shape the ethical landscape of their work. This paper offers a descriptive map of this terrain. It does not seek to critique or rank methodologies, but rather to analyze how different research practices bring different ethical considerations to the forefront. 
+\section*{Quantitative Methodologies, Distributive Justice, and Open Data}
+Quantitative methodologies, which are composed of methods such as Cost-Benefit Analysis (CBA), provide powerful frameworks for standardization and are primarily oriented towards the ethical terrain of \textit{distributive justice}. They aim to create objective, numerical representations that allow for the efficient allocation of costs and benefits. In the context of large-scale energy projects, such as the Colectora transmission line in La Guajira, Colombia, CBAs are often used to justify developments based on national-level benefits like grid stability and carbon reduction. However, this focus on an aggregated, economic metric can obscure other profound injustices. The CBA framework, for example, struggles to value non-monetary assets like ancestral lands or cultural heritage, leading to deep ethical conflicts rooted in a failure of \textit{recognition justice} \parencite{VegaAraujo2022}.
 
-To do this, we first introduce a key distinction between `procedural ethics'---the formal rules of research conduct---and `ethics in practice'---the everyday ethical judgments researchers make. We then use this lens to explore four major families of research methods: quantitative, qualitative, participatory, and internet-mediated. We will describe the primary ethical dimensions associated with each, showing how a choice of method is also a choice of a particular ethical framework.
+The key ethical risk of these approaches—their ``black box'' nature—can be directly mitigated by the principles of open science. By embracing \textbf{open data}, researchers can make the underlying assumptions, datasets, and models of a CBA publicly available. This practice enhances transparency and contestability, allowing affected stakeholders to scrutinize inputs, challenge valuations, and even propose alternative models. While this does not remove the inherent limitations of CBA, it transforms an opaque, top-down decree into a more transparent and debatable tool, thereby enhancing \textit{procedural justice} by opening the process to wider review \parencite{AlonsoPedrero2025}.
 
-\section{Framing the Landscape}
+\section*{Qualitative Methodologies, Recognition Justice, and Open Access}
+In contrast, qualitative methodologies, which employ methods such as ethnography and semi-structured interviews, excel at exploring the terrain of \textit{recognition justice}. By focusing on lived experience, meaning, and context, they can uncover the diverse values, cultures, and perceptions of fairness that quantitative approaches often miss. The study by \textcite{VegaAraujo2022} is itself a prime example; using qualitative methods, the researchers uncovered a critical conflict between state-recognized and community-recognized leaders, an issue of legitimacy that a quantitative survey would likely have missed. This demonstrates how the choice of methodology determines whether crucial social nuances are ``seen'' by the research.
 
-A useful way to understand the ethics of research is to distinguish between two interconnected domains \citep{ec_2018}. The first is **procedural ethics**, which refers to the formal systems of compliance: institutional review boards (IRBs), data protection regulations like GDPR, and the signed consent forms that govern much of modern research. These are the `rules of the road,' designed to provide a baseline of protection for research participants.
+The open science solution in this context is twofold. First, \textbf{open access publishing} ensures that the research findings, which often give voice to marginalized communities, are not locked behind paywalls and are accessible to the communities themselves. Second, embracing \textbf{FAIR (Findable, Accessible, Interoperable, Reusable) data principles} provides a robust framework for sharing qualitative data ethically. This involves creating careful data management plans that protect participant anonymity and privacy while ensuring that the narratives and knowledge can be appropriately archived and shared, giving communities greater control over their own stories.
 
-The second domain is **ethics in practice**. This encompasses the `ethically important moments' that arise in the day-to-day work of research---the subtle, context-dependent decisions that are not always covered by formal rules but are nonetheless crucial for ethical conduct. This framework allows for a more nuanced analysis, moving beyond a simple checklist approach to a richer description of how formal procedures interact with the practical realities of inquiry.
+\section*{Participatory Methodologies, Procedural Justice, and Open-Source Hardware}
+Participatory methodologies, such as Participatory Action Research (PAR), are explicitly designed to embody \textit{procedural justice}. They seek to break down the traditional researcher-subject hierarchy by engaging communities as active co-producers of knowledge. However, they often face a practical challenge in ensuring that participation is genuine and not merely superficial. Studies of opposition to wind farms in Australia, for instance, show that resistance is often driven not by the infrastructure itself, but by a perceived lack of procedural fairness in a top-down planning process \parencite{Gross2007}.
 
-\section{A Tour of Methodological Families}
+A powerful open science solution to this challenge lies in \textbf{Open-Source Appropriate Technology (OSAT)}. OSAT involves making the designs for technologies—from solar panels to water pumps—freely available so that communities can adapt, build, and maintain them \parencite{Pearce2019}. This practice provides tangible tools for community co-design and ownership, transforming participation from a consultative exercise into a process of genuine empowerment and co-production \parencite{Rana2023}. By providing open-source tools, researchers can facilitate a more profound form of procedural justice where communities become true partners in shaping their own technological futures.
 
-\subsection{Quantitative and Economic Methods}
+\section*{Conclusion}
+The choice of research methodology in the energy field is a critical ethical decision. A CBA, an ethnographic study, and a participatory workshop are not interchangeable tools; they are distinct frameworks that structure what is valued, who is heard, and how justice is defined. This reflection has provided a descriptive map showing how quantitative, qualitative, and participatory methodologies align with distributive, recognition, and procedural justice, respectively. More importantly, it has shown that open science is not an abstract ideal, but a set of practical tools—open data, open access, and open-source hardware—that can help researchers navigate the inherent ethical trade-offs. An awareness of this three-part relationship is essential for conducting responsible and impactful energy research that is both scientifically rigorous and ethically sound.
 
-Quantitative methods, such as cost-benefit analysis (CBA), seek to produce objective, often numerical, representations of phenomena. Their goal is to create standardized metrics that allow for comparison across different contexts.
+\printbibliography
 
-From an ethical perspective, these methods are primarily oriented toward questions of **distributive justice**---that is, quantifying and allocating costs and benefits among a population. However, a crucial ethical dimension here is the principle that methodologically poor science is itself unethical \citep{wieten_2017}. A flawed study that exposes participants to even minimal risk for no chance of producing reliable knowledge is an ethical failure. Furthermore, by aggregating diverse human experiences into a single numerical output, these methods can sometimes sideline questions of **recognition justice**, which is concerned with respecting the diverse values and cultures that may not be easily quantified.
-
-\subsection{Qualitative and Ethnographic Methods}
-
-In contrast, qualitative methods---such as in-depth interviews, focus groups, and ethnographic observation---seek to understand phenomena from the perspective of the actors involved. They focus on meaning, social context, and lived experience. A sophisticated example is the `biography of artifacts and practices' (BOAP) framework, which uses longitudinal study to trace how technologies evolve over time \citep{hyysalo_pollock_williams_2019}.
-
-The ethical terrain of these methods is different. They are particularly well-suited to exploring **recognition justice** by centering local knowledge and cultural values, and **procedural justice** by uncovering community perceptions of fairness. The primary ethical risks are rarely physical, but rather social and psychological. Breaches of privacy, failures of confidentiality, and the potential for stigmatization are paramount concerns \citep{ec_2018}. Secure data management and the robust protection of participant anonymity become core ethical obligations.
-
-\subsection{Participatory Methods}
-
-Participatory methods, like Participatory Action Research (PAR), go a step further by actively involving research subjects as co-producers of knowledge. This approach intentionally breaks down the traditional hierarchy between the researcher and the researched.
-
-Here, the ethical framework is explicitly designed to embody **procedural justice**. The central ethical challenges shift away from simply `protecting' subjects toward navigating the complex dynamics of collaboration. Questions of shared ownership of data, equitable distribution of any benefits that arise from the research, and the transparent negotiation of power relations within the research team become the primary ethical considerations.
-
-\subsection{Internet-Mediated Research}
-
-A fourth and rapidly growing family of methods uses the internet as both a site and a tool for research, for example through the analysis of social media data. This domain presents unique ethical challenges. A central tension exists between what is `publicly available' and what is ethically `fair game' for research.
-
-Key ethical questions revolve around the user's reasonable expectation of privacy, even on a public platform. Obtaining meaningful informed consent is often difficult, if not impossible. Furthermore, the **`mosaic effect'** describes the risk of re-identification that can occur when multiple anonymized datasets are combined, inadvertently revealing private information about individuals \citep{ec_2018}.
-
-\section{The Figure of the Methodologist}
-
-The evolution of these methods and their associated ethical norms is not an abstract process. It is driven by the work of specific scientific actors who can be described as **``methodologists''** \citep{nelson_2020}. These are researchers who focus their attention on the tools of inquiry themselves---questioning, testing, and refining the methods that their peers may take for granted.
-
-Describing the work of these actors is key to understanding how the ethical landscape of research changes. Their debates---over statistical techniques, the design of consent forms, or the guidelines for internet research---reveal that methodological and ethical standards are not static. They are the product of ongoing inquiry and deliberation within scientific communities.
-
-\section{Conclusion}
-
-This descriptive analysis shows that the choice of a research method is not merely a technical decision; it is an ethical one. Each family of methods---quantitative, qualitative, participatory, and internet-mediated---opens up a distinct ethical terrain, prioritizing certain principles and presenting unique challenges. The formal rules of procedural ethics provide a necessary foundation, but they are not sufficient. Ethical research requires a constant, reflexive engagement with the messy realities of ethics in practice. It is an ongoing process of judgment and deliberation, not a checklist to be completed once.
-
-\bibliographystyle{plainnat}
-\bibliography{references}
-
-\end{document} 
+\end{document}

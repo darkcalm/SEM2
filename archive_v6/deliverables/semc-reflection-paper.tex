@@ -1,0 +1,70 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+
+% Compact title setup - reduces vertical space
+\makeatletter
+\def\@maketitle{%
+  \newpage\null\vskip-1em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\Large\bfseries \@title \par}%
+    \vskip 1.25em%
+    {\normalsize
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 1em%
+    {\normalsize \@date}%
+  \end{center}%
+  \par\vskip 1.5em}
+\makeatother
+
+\title{A Descriptive Map: How Research Methodology Shapes Ethics in Energy Research}
+\author{Para}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+Research in any field carries a dual responsibility: to produce reliable knowledge and to do so in a manner that respects the dignity and welfare of all involved. This responsibility is especially pronounced in the energy sector, where projects have immense social and environmental consequences. This paper provides a descriptive analysis of the relationship between research methodology and ethics in energy research. We argue that methodological choices are not merely technical decisions but are themselves ethical frameworks that determine which aspects of justice are brought into focus and which are obscured.
+
+To conduct this analysis, we employ the energy justice framework, which offers a powerful lens for examining the ethical dimensions of energy systems \citep{sovacool_dworkin_2015, jenkins_mccauley_heffron_2016}. We focus on its three core tenets: \textbf{distributive justice}, which concerns the allocation of costs and benefits; \textbf{procedural justice}, which focuses on the fairness and inclusivity of decision-making; and \textbf{recognition justice}, which involves respecting the rights and cultural identities of different social groups. This paper maps three major families of research methods---quantitative, qualitative, and participatory---to these ethical dimensions, using specific case studies from the energy sector to illustrate the connections.
+
+\section*{Mapping Methodologies and Ethical Terrains}
+
+\subsection*{Quantitative Methods and Distributive Justice}
+Quantitative methods, such as Cost-Benefit Analysis (CBA), are primarily oriented towards questions of distributive justice. They are designed to produce objective, numerical representations that allow for the standardized comparison and allocation of a project's costs and benefits. In the energy sector, they are frequently used to justify large-scale infrastructure projects.
+
+A clear example is the use of CBAs to rationalize national investments in renewable energy infrastructure, such as the Colectora transmission line project in La Guajira, Colombia. While such analyses are essential for high-level planning, their focus on a single, aggregated economic metric can obscure deep-seated injustices. The CBA framework, for instance, struggles to account for the non-monetary value of ancestral lands or the cultural impacts of infrastructure. This can lead to conflicts rooted in a failure of recognition justice, as the ``objective'' valuation of the CBA becomes a site of intense political and ethical contestation \citep{vega-araujo_heffron_2022}.
+
+\subsection*{Qualitative Methods and Recognition Justice}
+In contrast, qualitative methods, including semi-structured interviews and ethnographic case studies, are uniquely suited to exploring the terrain of recognition justice. By focusing on meaning, context, and lived experience, they can uncover the diverse values and perceptions of fairness that quantitative methods may overlook.
+
+The study of the La Guajira project is itself a powerful example. By using semi-structured interviews, the researchers were able to identify the Wayúu community's perception that the consultation process was illegitimate. The research revealed a critical conflict between state-recognized ``Traditional Authorities'' and community-recognized ``Ancestral Authorities''---a distinction a quantitative survey of ``community leaders'' would likely have missed \citep{vega-araujo_heffron_2022}. The qualitative methodology was therefore essential for bringing the issue of recognition justice---that is, who is a `legitimate representative'?---to the forefront. It demonstrates how the choice of method determines whether such crucial social nuances are ``seen'' by the research.
+
+\subsection*{Participatory Methods and Procedural Justice}
+Participatory methods, such as Participatory Action Research (PAR), are explicitly designed to embody procedural justice. By breaking down the traditional researcher-subject hierarchy and involving communities as co-producers of knowledge, these methods embed fairness and inclusion directly into the research process itself.
+
+Studies on the social acceptance of wind farms in Australia, for instance, show that community opposition is often driven not by a rejection of the technology, but by a perceived lack of procedural fairness \citep{gross_2007}. Top-down planning processes, even when they result in community benefit agreements (a distributive measure), are often resisted because they lack genuine participation. A participatory approach, in which community members are involved in the siting and design process from the outset, directly addresses this ethical dimension. It builds trust and a sense of shared ownership, demonstrating that for many energy projects, achieving procedural justice is a prerequisite for social acceptance.
+
+\section*{Conclusion}
+The relationship between research methodology and ethics in the energy sector is not incidental; it is foundational. As this analysis shows, quantitative methods bring questions of distribution to the fore, qualitative methods illuminate the domain of recognition, and participatory methods directly enact a form of procedural justice.
+
+The choice between a cost-benefit analysis, an ethnographic study, or a participatory workshop is therefore not merely a technical decision but a profoundly ethical one. It determines what is valued, who is heard, and how justice itself is defined. For energy research to be truly responsible and effective, researchers must be as deliberate and reflective in their choice of methodology as they are in their analysis of data. A flawed or inappropriate research method is not just poor science; it is an ethical failure in its own right \citep{wieten_2017}.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

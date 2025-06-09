@@ -1,18 +1,15 @@
-# SEMC Course Deliverable: A Descriptive Analysis of Methodology and Ethics in Energy Research
+# SEMC Course Deliverable: Methodology and Ethics in Energy Research
 
-This repository contains the work for a two-page reflection paper for the SEMC course at Carnegie Mellon University. The paper presents a descriptive and analytical overview of the relationship between research methodologies and ethical dimensions in the context of energy research.
+This repository contains the work for a two-page reflection assignment for the SEMC course. The assignment presents a descriptive and analytical overview of the relationship between research methodologies and ethical dimensions in the context of energy research.
 
 ## Repository Development History
 
-This project has been developed over five distinct phases, with the archive of each major attempt preserved in the repository.
+This project was developed over seven distinct versions, with the archive of each major attempt preserved in the repository. This iterative process allowed for a progressive refinement of the core argument, moving from a broad exploration to a focused, three-part analysis. Each version represents a distinct stage in the research and writing process, and the archives are preserved to show the project's intellectual development.
 
-- **`archive/` (Version 1):** The initial exploration of the topic, focusing on a broad, foundational synthesis of concepts.
-- **`archive_v2/` (Version 2):** A second attempt that narrowed the focus, concentrating on specific methodologies and their ethical implications.
-- **`archive_v3/` (Version 3):** A third version that introduced a more balanced perspective, analyzing both the strengths and weaknesses of different approaches.
-- **`archive_v4/` (Version 4):** The fourth iteration, which refined the analysis into a final, descriptive synthesis, moving away from normative claims.
-- **`main` branch (Version 5):** The current and final version of the project, which builds on the synthesis from `archive_v4/` to produce the final deliverable.
-
-This iterative process allowed for a progressive refinement of the core argument, moving from a broad exploration to a focused, descriptive analysis. Each version represents a distinct stage in the research and writing process, and the archives are preserved to show the project's intellectual development.
+- **`archive/` to `archive_v4/` (Versions 1-4):** Initial explorations that moved from a broad, normative framing toward a more focused, descriptive analysis of methodologies and ethics.
+- **`archive_v5/` (Version 5):** A major shift to a purely descriptive framework, mapping methodological families to the ethical terrains of distributive, procedural, and recognition justice.
+- **`archive_v6/` (Version 6):** Grounded the descriptive framework of V5 in a concrete energy sector case study (the La Guajira transmission line) to provide necessary specificity and depth.
+- **`main` branch (Version 7):** The final version. This integrated the missing third pillar—**Open Science**—into the analysis, connecting specific open science practices (e.g., open data, open-source hardware) to the ethical challenges identified in the previous versions.
 
 ## License
 
