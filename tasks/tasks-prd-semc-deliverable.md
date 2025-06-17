@@ -17,7 +17,7 @@
 - [x] 2.0 V7 Literature Review
   - [x] 2.1 [Compile a master list of all previously cited sources, with a focus on energy justice and open science literature]
   - [x] 2.2 [Create a new, consolidated annotated bibliography for V7, with a dedicated section on open science sources] (Deliverable)
-- [ ] 3.0 V7 Synthesis and Argument Development
+- [x] 3.0 V7 Synthesis and Argument Development
   - [x] 3.1 [Synthesize findings into a new document that explicitly connects methodology, ethics, and open science solutions using energy case studies] (Deliverable)
   - [x] 3.2 [Formulate a new, three-part thesis statement based on the V7 synthesis] (Deliverable)
   - [x] 3.3 [Create a detailed outline for the paper that integrates the open science discussion into each section] (Deliverable)
